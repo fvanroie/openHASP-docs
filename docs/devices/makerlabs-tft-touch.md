@@ -24,14 +24,14 @@ On the back there is an SD-card slot, USB-C connector and expansion port with 14
 
 | Model                   | 3.2" Resistive | 3.5" Resistive | 3.5" Capacitive
 |-------------------------|:-------:|:-------:|:--------:
-| SKU                     | [ESPTFT32CA][1] | [ESPTFT35RE][2] | [ESPTFT35CA][3]
-| Flash                   | 16 MB   | 16 MB   | 16 MB
-| PSram                   | 8 MB    | 8 MB    | 8 MB
-| Resolution              | 3.2" 320x240 | 3.5" 480x320 | 3.5" 480x320
-| Touch Screen            | Resistive | Resistive | Capacitive
-| OV2640 Camera           | 2M pixel | 2M pixel | 2M pixel
-| SD Card                 | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes
-| PWM Screen dimming      | :question_mark: tbd    | :question_mark: tbd    | :question_mark: tbd   
+| :material-barcode-scan: SKU                     | [ESPTFT32CA][1] | [ESPTFT35RE][2] | [ESPTFT35CA][3]
+| :material-chip: Flash                   | 16 MB   | 16 MB   | 16 MB
+| :material-memory: PSram                   | 8 MB    | 8 MB    | 8 MB
+| :material-cellphone-screenshot: Resolution              | 3.2" 320x240 | 3.5" 480x320 | 3.5" 480x320
+| :material-gesture-tap: Touch Screen            | Resistive | Resistive | Capacitive
+| :material-webcam: OV2640 Camera           | 2M pixel | 2M pixel | 2M pixel
+| :material-micro-sd: SD Card                 | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes
+| :material-pulse: PWM Screen dimming      | :question_mark: tbd    | :question_mark: tbd    | :question_mark: tbd   
 | | [:material-cart-variant: Buy][1]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][2]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary }
 
 
