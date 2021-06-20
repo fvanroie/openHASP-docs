@@ -47,7 +47,7 @@ On the back there is an SD-card slot, USB-C connector and expansion port with 14
 
 More information can be found in the Makerfabs Wiki and there are plenty of example projects available on the Github repository.
 
-[:fontawesome-regular-book: Makerfabs Wiki][6]{ .md-button .md-button } &nbsp;
+[:material-book-open-page-variant: Makerfabs Wiki][6]{ .md-button .md-button } &nbsp;
 [:material-github: Github Repo][5]{ .md-button .md-button }
 
 ## Acrylic Case
