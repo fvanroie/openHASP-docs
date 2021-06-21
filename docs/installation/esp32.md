@@ -50,7 +50,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
 
 === "Web Browser :material-google-chrome: :material-microsoft-edge:"
     <div id="flasher">
-        This web browser can install openHASP directly onto your device: 
+        The web browser can install openHASP directly onto your device: 
         <ol>
             <li>Plug in your ESP32 to a USB port.</li>
             <li id="coms">Click "Install Firmware" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
@@ -59,9 +59,10 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
         </ol>
         <!-- add new builds here -->
         <p>Choose model:
-        <select id="ver" class="md-button md-button--primary" onchange="setManifest()">
-            <option value="0_12_0" data-manifest="bin/release_0_12_0/manifest.json">0.12.0</option>
-            <option value="210618" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
+        <select id="ver" class="md-select" onchange="setManifest()">
+            <option value="1" data-manifest="bin/release_0_12_0/manifest.json">0.12.0</option>
+            <option value="2" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
+            <option value="3" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
         </select>
         </p>
         <div class="inst-button">
