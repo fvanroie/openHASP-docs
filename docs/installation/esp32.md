@@ -48,7 +48,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
 
     Change `COM90` to the correct port on your computer.
 
-=== "ESP Flash Tools :material-google-chrome: :material-mdi-microsoft-edge:"
+=== "Web Installer :material-google-chrome: :material-microsoft-edge:"
 
 
 <div id="flasher">
