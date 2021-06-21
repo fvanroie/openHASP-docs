@@ -71,7 +71,7 @@ option:not(:checked) {
     color: var(--md-primary-bg-color)
 }
 
-option:not(:checked) {
+option:checked {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color)
