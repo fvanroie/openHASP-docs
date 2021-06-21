@@ -65,8 +65,7 @@ table th:last-child {
     color: var(--md-primary-bg-color)
 }
 
-.install-menu:focus,
-.install-menu:hover {
+.install-menu:focus {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color)
