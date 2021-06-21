@@ -39,7 +39,7 @@ table th:last-of-type {
 | Dev. Board* |[D1 mini ESP8266][3]|[D1 mini ESP32][4]|[TTGO T7 v1.5 Mini32][5]
 | Firmware    | [Download][1] | [Download][1]  | [Download][1]
 
-[1]: https://github.com/HASwitchPlate/openHASP/releases
+[1]: https://github.com/HASwitchPlate/openHASP/releases/v0.6.0
 [3]: https://www.aliexpress.com/item/32643142716.html
 [4]: https://www.aliexpress.com/item/32815530502.html
 [5]: https://www.aliexpress.com/item/32977375539.html
