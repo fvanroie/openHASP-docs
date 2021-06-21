@@ -68,7 +68,7 @@ table th:last-child {
 option:not(:checked) {
     background-color: var(--md-default-bg-color--lightest);
     border-color: var(--md-primary-fg-color);
-    color: var(--md-primary-bg-color)
+    color: var(--md-primary-fg-color)
 }
 
 option:checked {
