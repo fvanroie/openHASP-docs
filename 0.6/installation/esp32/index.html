@@ -1213,7 +1213,7 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
 </div>
 <input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Web Browser <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 20 3.46-6h-.01c.34-.6.55-1.27.55-2 0-1.2-.54-2.27-1.38-3h4.79c.38.93.59 1.94.59 3a8 8 0 0 1-8 8m-8-8c0-1.46.39-2.82 1.07-4l3.47 6h.01c.69 1.19 1.95 2 3.45 2 .45 0 .88-.09 1.29-.23l-2.4 4.14C7 19.37 4 16.04 4 12m11 0a3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3m-3-8a7.98 7.98 0 0 1 6.92 4H12c-1.94 0-3.55 1.38-3.92 3.21L5.7 7.08A7.981 7.981 0 0 1 12 4m0-2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.86 15.37c-.69-.77-1.16-1.69-1.31-2.72-.3.46-.55.96-.73 1.5-.92 2.75.68 6.18 3.4 7.18 2.34.78 4.97-.61 6.7-2.13.26-.35 2.31-2.16 1.29-2.36-3.02 1.55-7.02 1.11-9.35-1.47m.6-5.81c1.04-.01.04-.43-.39-.75-1.04-.57-2.26-.85-3.44-.85C3.78 8 .995 10.41 2.3 14.4c.94 3.88 4.31 7 8.29 7.5-2.05-1.29-3.29-3.71-3.29-6.12.08-2.53 1.64-5.5 4.16-6.22M2.78 8.24C5.82 6 10.66 6.18 13.28 9c1.02 1.11 1.72 3 .79 4.37-1.74 1.88 3.08 2.13 4.11 1.85 3.74-.72 4.73-5.07 2.95-8.07-1.7-3.4-5.47-5.18-9.17-5.15-4.06-.07-7.71 2.5-9.18 6.24z"/></svg></span></label><div class="tabbed-content">
 <p><div id="flasher">
-    This web browser can install openHASP directly onto your device: 
+    The web browser can install openHASP directly onto your device: 
     <ol>
         <li>Plug in your ESP32 to a USB port.</li>
         <li id="coms">Click "Install Firmware" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
@@ -1222,9 +1222,10 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
     </ol>
     <!-- add new builds here -->
     <p>Choose model:
-    <select id="ver" class="md-button md-button--primary" onchange="setManifest()">
-        <option value="0_12_0" data-manifest="bin/release_0_12_0/manifest.json">0.12.0</option>
-        <option value="210618" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
+    <select id="ver" class="md-select" onchange="setManifest()">
+        <option value="1" data-manifest="bin/release_0_12_0/manifest.json">0.12.0</option>
+        <option value="2" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
+        <option value="3" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
     </select>
     </p>
     <div class="inst-button">
