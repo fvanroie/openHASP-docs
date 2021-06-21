@@ -48,17 +48,19 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
 
     Change `COM90` to the correct port on your computer.
 
-=== "Web Installer :material-google-chrome: :material-microsoft-edge:"
+=== "Web Browser :material-google-chrome: :material-microsoft-edge:"
     <div id="flasher">
+        This web browser can install openHASP 0.6.0 directly onto your device: 
         <ol>
-            <li>Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.</li>
+            <li>Plug in your ESP32 to a USB port.</li>
             <li id="coms">Hit "Install" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
             </li>
-            <li>Wait a while, the process is a lot faster if you stay on this tab.</li>
-        </ol><br><br>
+            <li>Wait a while, the process is a lot faster if you stay on this tab!</li>
+        </ol><br>
         <div class="container inst-button">
             <esp-web-install-button id="inst" manifest="assets/json/manifest.json" hide-progress erase-first>
-                <button slot="activate">Custom install button</button>
+                <button class="md-button md-button--primary" slot="activate">Custom install button</button>
+                <a class="md-button md-button--primary" href="https://github.com/HASwitchPlate/openHASP/discussions" target="_blank">Install 2</a>
                 <span slot="unsupported">Ah snap, your browser doesn't work!</span>
                 <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
             </esp-web-install-button><br>
