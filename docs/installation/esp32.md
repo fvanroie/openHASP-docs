@@ -59,7 +59,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
         </ol>
         <!-- add new builds here -->
         <p>Choose a device:
-        <select id="ver" class="md-select" onchange="setManifest()">
+        <select id="ver" class="install-menu" onchange="setManifest()">
             <option value="1" data-manifest="../../assets/json/d1-mini-esp32_ili9341_full_4MB_v0.6.0.json" hide-progress erase-first>d1-mini ESP32 TFT Touch Shield (4MB) v0.6.0</option>
             <option value="2" data-manifest="../../assets/json/esp32-touchdown_full_4MB_v0.6.0.json" hide-progress erase-first>ESP32 TouchDown v0.6.0</option>
             <option value="3" data-manifest="../../assets/json/freetouchdeck_full_4MB_v0.6.0.json" hide-progress erase-first>FreeTouchDeck v0.6.0</option>
