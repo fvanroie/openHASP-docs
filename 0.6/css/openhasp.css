@@ -48,3 +48,26 @@ table th:last-child {
     color: var(--md-accent-fg-color);
     font-size: 0.8rem;
 }
+
+
+/* Installer dropdown */
+
+.install-menu {
+    border: .1rem solid;
+    border-radius: .1rem;
+    color: var(--md-primary-fg-color);
+    display: inline-block;
+    font-weight: 700;
+    padding: .625em 2em;
+    transition: color 125ms, background-color 125ms, border-color 125ms;
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color)
+}
+
+.install-menu:focus,
+.install-menu:hover {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color)
+}
