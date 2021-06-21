@@ -70,8 +70,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             <span class="info-top" id="state">Initializing...</span>
             <span class="info-top" id="progress"></span><br>
             <div id="bar" class="height: 12px; width: 100%;">
-                <div id="bar-inner" class="transform: translate(-50%, -10%); width: 200%; height: 120%; background: linear-gradient(to right, #fff 50%, #444 50%); transition: transform 3s; position: absolute;
- left: 0; top: 0;"></div>
+                <div id="bar-inner" class="transform: translate(-50%, -10%); width: 200%; height: 120%; background: linear-gradient(to right, #fff 50%, #444 50%); transition: transform 3s; position: absolute;  left: 0; top: 0;"></div>
             </div>
             <span class="info-bot" id="env">&nbsp;</span>
             <span class="info-bot" id="extra">&nbsp;</span>
@@ -83,5 +82,3 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
 
 
     Powered by [ESP Web Tools](https://esphome.github.io/esp-web-tools/)
-
-[![Download Laps](https://img.shields.io/badge/download-laps.zip-blue?style=for-the-badge)](https://github.com/Rarst/laps/releases/latest/download/laps.zip)
