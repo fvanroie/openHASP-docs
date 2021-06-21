@@ -60,7 +60,6 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
         <div class="container inst-button">
             <esp-web-install-button id="inst" manifest="assets/json/manifest.json" hide-progress erase-first>
                 <button class="md-button md-button--primary" slot="activate">Custom install button</button>
-                <a class="md-button md-button--primary" href="https://github.com/HASwitchPlate/openHASP/discussions" target="_blank">Install 2</a>
                 <span slot="unsupported">Ah snap, your browser doesn't work!</span>
                 <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
             </esp-web-install-button><br>
@@ -77,7 +76,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             <span class="info-bot" id="extra">&nbsp;</span>
         </div>
         <div id="reset-button">
-            <br><button class="btn" onclick="reset()">&#8635; Start over</button><br>
+            <br><button class="md-button md-button--primary" onclick="reset()">&#8635; Start over</button><br>
         </div>
     </div>
 

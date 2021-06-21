@@ -90,4 +90,5 @@ function installerLoaded() {
 
 $(document).ready(function() {
     installerLoaded();
+    reset();
 });
