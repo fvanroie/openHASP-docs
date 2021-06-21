@@ -1,0 +1,10 @@
+{
+    "name": "openHASP",
+    "builds": [{
+        "chipFamily": "ESP32",
+        "improv": false,
+        "parts": [
+            { "path": "./m5stack-core2_full_16MB_v0.6.0.bin", "offset": 0 }
+        ]
+    }]
+}

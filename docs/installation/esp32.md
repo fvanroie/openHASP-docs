@@ -61,18 +61,18 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
         <p>
         <select id="ver" class="install-menu" onchange="setManifest()">
             <option value="none" selected disabled hidden>Choose a device</option>
-            <option value="1" data-manifest="../../assets/json/d1-mini-esp32_ili9341_full_4MB_v0.6.0.json" hide-progress erase-first>d1-mini ESP32 TFT Touch Shield (4MB) v0.6.0</option>
-            <option value="2" data-manifest="../../assets/json/esp32-touchdown_full_4MB_v0.6.0.json" hide-progress erase-first>ESP32 TouchDown v0.6.0</option>
-            <option value="3" data-manifest="../../assets/json/freetouchdeck_full_4MB_v0.6.0.json" hide-progress erase-first>FreeTouchDeck v0.6.0</option>
-            <option value="4" data-manifest="../../assets/json/huzzah32-featherwing-24_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 2.4&quot; v0.6.0</option>
-            <option value="5" data-manifest="../../assets/json/huzzah32-featherwing-35_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 3.5&quot; v0.6.0</option>
-            <option value="6" data-manifest="../../assets/json/lanbon_l8_full_8MB_v0.6.0.json" hide-progress erase-first>Lanbon L8 v0.6.0</option>
-            <option value="7" data-manifest="../../assets/json/m5stack-core2_full_16MB_v0.6.0.json" hide-progress erase-first>M5Stack core2 v0.6.0</option>
-            <option value="8" data-manifest="../../assets/json/wt32-sc01_full_4MB_v0.6.0.json" hide-progress erase-first>WT32-SC01 (4MB) v0.6.0</option>
+            <option value="1" data-manifest="../../assets/firmware/d1-mini-esp32_ili9341_full_4MB_v0.6.0.json" hide-progress erase-first>d1-mini ESP32 TFT Touch Shield (4MB) v0.6.0</option>
+            <option value="2" data-manifest="../../assets/firmware/esp32-touchdown_full_4MB_v0.6.0.json" hide-progress erase-first>ESP32 TouchDown v0.6.0</option>
+            <option value="3" data-manifest="../../assets/firmware/freetouchdeck_full_4MB_v0.6.0.json" hide-progress erase-first>FreeTouchDeck v0.6.0</option>
+            <option value="4" data-manifest="../../assets/firmware/huzzah32-featherwing-24_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 2.4&quot; v0.6.0</option>
+            <option value="5" data-manifest="../../assets/firmware/huzzah32-featherwing-35_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 3.5&quot; v0.6.0</option>
+            <option value="6" data-manifest="../../assets/firmware/lanbon_l8_full_8MB_v0.6.0.json" hide-progress erase-first>Lanbon L8 v0.6.0</option>
+            <option value="7" data-manifest="../../assets/firmware/m5stack-core2_full_16MB_v0.6.0.json" hide-progress erase-first>M5Stack core2 v0.6.0</option>
+            <option value="8" data-manifest="../../assets/firmware/wt32-sc01_full_4MB_v0.6.0.json" hide-progress erase-first>WT32-SC01 (4MB) v0.6.0</option>
         </select>
         </p>
         <div class="inst-button">
-            <esp-web-install-button id="inst" manifest="../../assets/json/manifest.json" hide-progress erase-first>
+            <esp-web-install-button id="inst" manifest="../../assets/firmware/manifest.json" hide-progress erase-first>
                 <button class="md-button md-button--primary" slot="activate">Install Firmware</button>
                 <span slot="unsupported">Ah snap, your browser doesn't work!</span>
                 <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>

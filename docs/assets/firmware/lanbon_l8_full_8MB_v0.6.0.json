@@ -1,0 +1,10 @@
+{
+    "name": "openHASP",
+    "builds": [{
+        "chipFamily": "ESP32",
+        "improv": false,
+        "parts": [
+            { "path": "./lanbon_l8_full_8MB_v0.6.0.bin", "offset": 0 }
+        ]
+    }]
+}
