@@ -65,7 +65,13 @@ table th:last-child {
     color: var(--md-primary-bg-color)
 }
 
-.install-menu:focus {
+option:not(:checked) {
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color)
+}
+
+option:not(:checked) {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color)
