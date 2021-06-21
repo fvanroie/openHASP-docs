@@ -63,7 +63,7 @@ function reset() {
 }
 
 function checkSupported() {
-    if (document.getElementById('inst').hasAttribute('install-unsupported')) unsupported();
+    if (document.getElementById('inst') && document.getElementById('inst').hasAttribute('install-unsupported')) unsupported();
 }
 
 
