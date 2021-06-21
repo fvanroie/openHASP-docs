@@ -66,14 +66,12 @@ function checkSupported() {
     if (document.getElementById('inst') && document.getElementById('inst').hasAttribute('install-unsupported')) unsupported();
 }
 
-
-
 function unsupported() {
-    document.getElementById('flasher').innerHTML = "Sorry, your browser is not yet supported!<br>Please try on Desktop Chrome or Edge.<br>"
+    if (document.getElementById('flasher')) document.getElementById('flasher').innerHTML = "Sorry, your browser is not yet supported... Please try on Desktop Chrome or Edge."
 }
 
 function showSerialHelp() {
-    document.getElementById('coms').innerHTML = `Hit "Install" and select the correct COM port.<br><br>
+    if (document.getElementById('coms')) document.getElementById('coms').innerHTML = `Hit "Install" and select the correct COM port.<br><br>
 You might be missing the drivers for your board.<br>
 Here are drivers for chips commonly used in ESP boards:<br>
 <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers" target="_blank">CP2102 (square chip)</a><br>
