@@ -57,6 +57,11 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             </li>
             <li>Wait a while, the process is a lot faster if you stay on this tab!</li>
         </ol>
+          <!-- add new builds here -->
+        <select id="ver" class="md-button md-button--primary" onchange="setManifest()">
+            <option value="0_12_0" data-manifest="bin/release_0_12_0/manifest.json">0.12.0</option>
+            <option value="210618" data-manifest="bin/beta_210618/manifest.json">0.12.1-b1 (210618)</option>
+        </select><br>
         <div class="inst-button">
             <esp-web-install-button id="inst" manifest="../../assets/json/manifest.json" hide-progress erase-first>
                 <button class="md-button md-button--primary" slot="activate">Install Firmware</button>
