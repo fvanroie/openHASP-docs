@@ -47,3 +47,39 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
     ![Flash Download Tools](../../assets/images/esp32-espressif-flash.png)
 
     Change `COM90` to the correct port on your computer.
+
+=== "ESP Flash Tools :material-chrome: :material-edge:"
+
+        <div id="flasher">
+
+            <ol>
+                <li>Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.</li>
+                <li id="coms">Hit "Install" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
+                </li>
+                <li>Wait a while, the process is a lot faster if you stay on this tab.</li>
+            </ol><br><br>
+
+            <div class="container inst-button">
+                <esp-web-install-button id="inst" manifest="assets/json/manifest.json" hide-progress erase-first>
+                    <button slot="activate">Custom install button</button>
+                    <span slot="unsupported">Ah snap, your browser doesn't work!</span>
+                    <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
+                </esp-web-install-button><br>
+                <input type="checkbox" id="erase" name="erase" onchange="toggleErase()" checked>
+                <label for="erase"> Clean install (deletes presets and settings)</label><br>
+            </div>
+
+            <div class="container log">
+                <span class="info-top" id="state">Initializing...</span>
+                <span class="info-top" id="progress"></span><br>
+                <div id="bar">
+                    <div id="bar-inner"></div>
+                </div>
+                <span class="info-bot" id="env">&nbsp;</span>
+                <span class="info-bot" id="extra">&nbsp;</span>
+            </div>
+            <div id="reset-button">
+                <br><button class="btn" onclick="reset()">&#8635; Start over</button><br>
+            </div>
+
+
