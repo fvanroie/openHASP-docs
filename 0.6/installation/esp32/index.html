@@ -56,6 +56,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
+<!-- Web Tools Installer -->
 <script type="module" src="https://unpkg.com/esp-web-tools@3.3.0/dist/web/install-button.js?module"></script>
 
 
@@ -1241,7 +1242,9 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
 <span class="normal">28</span>
 <span class="normal">29</span>
 <span class="normal">30</span>
-<span class="normal">31</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&lt;div id=&quot;flasher&quot;&gt;
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&lt;div id=&quot;flasher&quot;&gt;
 
     &lt;ol&gt;
         &lt;li&gt;Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.&lt;/li&gt;
@@ -1272,6 +1275,8 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
     &lt;div id=&quot;reset-button&quot;&gt;
         &lt;br&gt;&lt;button class=&quot;btn&quot; onclick=&quot;reset()&quot;&gt;&amp;#8635; Start over&lt;/button&gt;&lt;br&gt;
     &lt;/div&gt;
+
+&lt;/div&gt;
 </code></pre></div>
 </td></tr></table>
 </div>
@@ -1352,6 +1357,7 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
       <script src="../../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
+<script src="../../js/installer.js"></script>
 <script src="../../js/youtube.js"></script>
 <script src="../../js/ekko-lightbox.min.js"></script>
 <script>
