@@ -58,16 +58,16 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             <li>Wait a while, the process is a lot faster if you stay on this tab!</li>
         </ol>
         <!-- add new builds here -->
-        <p>Choose model:
+        <p>Choose a device:
         <select id="ver" class="md-select" onchange="setManifest()">
-            <option value="1" data-manifest="../../assets/json/d1-mini-esp32_ili9341_full_4MB_v0.6.0.json" hide-progress erase-first>d1-mini-esp32_ili9341_full_4MB_v0.6.0</option>
-            <option value="2" data-manifest="../../assets/json/esp32-touchdown_full_4MB_v0.6.0.json" hide-progress erase-first>esp32-touchdown_full_4MB_v0.6.0</option>
-            <option value="3" data-manifest="../../assets/json/freetouchdeck_full_4MB_v0.6.0.json" hide-progress erase-first>freetouchdeck_full_4MB_v0.6.0</option>
-            <option value="4" data-manifest="../../assets/json/huzzah32-featherwing-24_full_4MB_v0.6.0.json" hide-progress erase-first>huzzah32-featherwing-24_full_4MB_v0.6.0</option>
-            <option value="5" data-manifest="../../assets/json/huzzah32-featherwing-35_full_4MB_v0.6.0.json" hide-progress erase-first>huzzah32-featherwing-35_full_4MB_v0.6.0</option>
-            <option value="6" data-manifest="../../assets/json/lanbon_l8_full_8MB_v0.6.0.json" hide-progress erase-first>lanbon_l8_full_8MB_v0.6.0</option>
-            <option value="7" data-manifest="../../assets/json/m5stack-core2_full_16MB_v0.6.0.json" hide-progress erase-first>m5stack-core2_full_16MB_v0.6.0</option>
-            <option value="8" data-manifest="../../assets/json/wt32-sc01_full_4MB_v0.6.0.json" hide-progress erase-first>wt32-sc01_full_4MB_v0.6.0</option>
+            <option value="1" data-manifest="../../assets/json/d1-mini-esp32_ili9341_full_4MB_v0.6.0.json" hide-progress erase-first>d1-mini ESP32 TFT Touch Shield (4MB) v0.6.0</option>
+            <option value="2" data-manifest="../../assets/json/esp32-touchdown_full_4MB_v0.6.0.json" hide-progress erase-first>ESP32 TouchDown v0.6.0</option>
+            <option value="3" data-manifest="../../assets/json/freetouchdeck_full_4MB_v0.6.0.json" hide-progress erase-first>FreeTouchDeck v0.6.0</option>
+            <option value="4" data-manifest="../../assets/json/huzzah32-featherwing-24_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 2.4&quot; v0.6.0</option>
+            <option value="5" data-manifest="../../assets/json/huzzah32-featherwing-35_full_4MB_v0.6.0.json" hide-progress erase-first>Huzzah32 Featherwing 3.5&quot; v0.6.0</option>
+            <option value="6" data-manifest="../../assets/json/lanbon_l8_full_8MB_v0.6.0.json" hide-progress erase-first>Lanbon L8 v0.6.0</option>
+            <option value="7" data-manifest="../../assets/json/m5stack-core2_full_16MB_v0.6.0.json" hide-progress erase-first>M5Stack core2 v0.6.0</option>
+            <option value="8" data-manifest="../../assets/json/wt32-sc01_full_4MB_v0.6.0.json" hide-progress erase-first>WT32-SC01 (4MB) v0.6.0</option>
         </select>
         </p>
         <div class="inst-button">
