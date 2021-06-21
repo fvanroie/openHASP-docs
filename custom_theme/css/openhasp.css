@@ -60,9 +60,8 @@ table th:last-child {
     font-weight: 700;
     padding: .625em 2em;
     transition: color 125ms, background-color 125ms, border-color 125ms;
-    background-color: var(--md-primary-fg-color);
     border-color: var(--md-primary-fg-color);
-    color: var(--md-primary-bg-color)
+    color: var(--md-primary-fg-color);
 }
 
 option:not(:checked) {
