@@ -60,12 +60,13 @@ table th:last-child {
     font-weight: 700;
     padding: .625em 2em;
     transition: color 125ms, background-color 125ms, border-color 125ms;
+    background: transparent;
     border-color: var(--md-primary-fg-color);
     color: var(--md-primary-fg-color);
 }
 
 option:not(:checked) {
-    background-color: var(--md-default-fg-color--lightest);
+    background-color: var(--md-default-bg-color--lightest);
     border-color: var(--md-primary-fg-color);
     color: var(--md-primary-bg-color)
 }
