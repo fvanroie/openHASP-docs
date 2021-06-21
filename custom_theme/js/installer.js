@@ -89,3 +89,7 @@ function installerLoaded() {
     });
     checkSupported();
 }
+
+$(document).ready(function() {
+    installerLoaded();
+});

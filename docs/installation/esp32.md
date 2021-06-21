@@ -81,5 +81,7 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             <div id="reset-button">
                 <br><button class="btn" onclick="reset()">&#8635; Start over</button><br>
             </div>
+            
+        </div>
 
 
