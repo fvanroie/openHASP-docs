@@ -49,17 +49,13 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
     Change `COM90` to the correct port on your computer.
 
 === "Web Installer :material-google-chrome: :material-microsoft-edge:"
-
-
     <div id="flasher">
-
         <ol>
             <li>Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.</li>
             <li id="coms">Hit "Install" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
             </li>
             <li>Wait a while, the process is a lot faster if you stay on this tab.</li>
         </ol><br><br>
-
         <div class="container inst-button">
             <esp-web-install-button id="inst" manifest="assets/json/manifest.json" hide-progress erase-first>
                 <button slot="activate">Custom install button</button>
@@ -69,7 +65,6 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
             <input type="checkbox" id="erase" name="erase" onchange="toggleErase()" checked>
             <label for="erase"> Clean install (deletes presets and settings)</label><br>
         </div>
-
         <div class="container log">
             <span class="info-top" id="state">Initializing...</span>
             <span class="info-top" id="progress"></span><br>
@@ -82,7 +77,6 @@ The actual procedure to flash the ESP32 depends on the tool used. Click on the t
         <div id="reset-button">
             <br><button class="btn" onclick="reset()">&#8635; Start over</button><br>
         </div>
-        
     </div>
 
 
