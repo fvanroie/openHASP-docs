@@ -88,6 +88,12 @@ function installerLoaded() {
     checkSupported();
 }
 
+function setManifest() {
+    var sel = document.getElementById('ver');
+    var m = sel.options[sel.selectedIndex].dataset.manifest;
+    document.getElementById('inst').setAttribute('manifest', m);
+}
+
 $(document).ready(function() {
     installerLoaded();
     reset();
