@@ -1211,40 +1211,70 @@ esptool.py --port COM1 --baud <span class="m">921600</span> write_flash 0x0 d1-m
 <p><img alt="Flash Download Tools" src="../../assets/images/esp32-espressif-flash.png" /></p>
 <p>Change <code>COM90</code> to the correct port on your computer.</p>
 </div>
-<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Web Installer <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 20 3.46-6h-.01c.34-.6.55-1.27.55-2 0-1.2-.54-2.27-1.38-3h4.79c.38.93.59 1.94.59 3a8 8 0 0 1-8 8m-8-8c0-1.46.39-2.82 1.07-4l3.47 6h.01c.69 1.19 1.95 2 3.45 2 .45 0 .88-.09 1.29-.23l-2.4 4.14C7 19.37 4 16.04 4 12m11 0a3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3m-3-8a7.98 7.98 0 0 1 6.92 4H12c-1.94 0-3.55 1.38-3.92 3.21L5.7 7.08A7.981 7.981 0 0 1 12 4m0-2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.86 15.37c-.69-.77-1.16-1.69-1.31-2.72-.3.46-.55.96-.73 1.5-.92 2.75.68 6.18 3.4 7.18 2.34.78 4.97-.61 6.7-2.13.26-.35 2.31-2.16 1.29-2.36-3.02 1.55-7.02 1.11-9.35-1.47m.6-5.81c1.04-.01.04-.43-.39-.75-1.04-.57-2.26-.85-3.44-.85C3.78 8 .995 10.41 2.3 14.4c.94 3.88 4.31 7 8.29 7.5-2.05-1.29-3.29-3.71-3.29-6.12.08-2.53 1.64-5.5 4.16-6.22M2.78 8.24C5.82 6 10.66 6.18 13.28 9c1.02 1.11 1.72 3 .79 4.37-1.74 1.88 3.08 2.13 4.11 1.85 3.74-.72 4.73-5.07 2.95-8.07-1.7-3.4-5.47-5.18-9.17-5.15-4.06-.07-7.71 2.5-9.18 6.24z"/></svg></span></label><div class="tabbed-content"></div>
-</div>
+<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Web Installer <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 20 3.46-6h-.01c.34-.6.55-1.27.55-2 0-1.2-.54-2.27-1.38-3h4.79c.38.93.59 1.94.59 3a8 8 0 0 1-8 8m-8-8c0-1.46.39-2.82 1.07-4l3.47 6h.01c.69 1.19 1.95 2 3.45 2 .45 0 .88-.09 1.29-.23l-2.4 4.14C7 19.37 4 16.04 4 12m11 0a3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3m-3-8a7.98 7.98 0 0 1 6.92 4H12c-1.94 0-3.55 1.38-3.92 3.21L5.7 7.08A7.981 7.981 0 0 1 12 4m0-2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.86 15.37c-.69-.77-1.16-1.69-1.31-2.72-.3.46-.55.96-.73 1.5-.92 2.75.68 6.18 3.4 7.18 2.34.78 4.97-.61 6.7-2.13.26-.35 2.31-2.16 1.29-2.36-3.02 1.55-7.02 1.11-9.35-1.47m.6-5.81c1.04-.01.04-.43-.39-.75-1.04-.57-2.26-.85-3.44-.85C3.78 8 .995 10.41 2.3 14.4c.94 3.88 4.31 7 8.29 7.5-2.05-1.29-3.29-3.71-3.29-6.12.08-2.53 1.64-5.5 4.16-6.22M2.78 8.24C5.82 6 10.66 6.18 13.28 9c1.02 1.11 1.72 3 .79 4.37-1.74 1.88 3.08 2.13 4.11 1.85 3.74-.72 4.73-5.07 2.95-8.07-1.7-3.4-5.47-5.18-9.17-5.15-4.06-.07-7.71 2.5-9.18 6.24z"/></svg></span></label><div class="tabbed-content">
 <div id="flasher">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&lt;ol&gt;
+    &lt;li&gt;Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.&lt;/li&gt;
+    &lt;li id=&quot;coms&quot;&gt;Hit &quot;Install&quot; and select the correct COM port. &lt;a onclick=&quot;showSerialHelp()&quot;&gt;No device found?&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Wait a while, the process is a lot faster if you stay on this tab.&lt;/li&gt;
+&lt;/ol&gt;&lt;br&gt;&lt;br&gt;
 
-    <ol>
-        <li>Plug in your ESP to a USB port. We will install openHASP 0.6.0 to it.</li>
-        <li id="coms">Hit "Install" and select the correct COM port. <a onclick="showSerialHelp()">No device found?</a>
-        </li>
-        <li>Wait a while, the process is a lot faster if you stay on this tab.</li>
-    </ol><br><br>
+&lt;div class=&quot;container inst-button&quot;&gt;
+    &lt;esp-web-install-button id=&quot;inst&quot; manifest=&quot;assets/json/manifest.json&quot; hide-progress erase-first&gt;
+        &lt;button slot=&quot;activate&quot;&gt;Custom install button&lt;/button&gt;
+        &lt;span slot=&quot;unsupported&quot;&gt;Ah snap, your browser doesn&#39;t work!&lt;/span&gt;
+        &lt;span slot=&quot;not-allowed&quot;&gt;Ah snap, you are not allowed to use this on HTTP!&lt;/span&gt;
+    &lt;/esp-web-install-button&gt;&lt;br&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;erase&quot; name=&quot;erase&quot; onchange=&quot;toggleErase()&quot; checked&gt;
+    &lt;label for=&quot;erase&quot;&gt; Clean install (deletes presets and settings)&lt;/label&gt;&lt;br&gt;
+&lt;/div&gt;
 
-    <div class="container inst-button">
-        <esp-web-install-button id="inst" manifest="assets/json/manifest.json" hide-progress erase-first>
-            <button slot="activate">Custom install button</button>
-            <span slot="unsupported">Ah snap, your browser doesn't work!</span>
-            <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
-        </esp-web-install-button><br>
-        <input type="checkbox" id="erase" name="erase" onchange="toggleErase()" checked>
-        <label for="erase"> Clean install (deletes presets and settings)</label><br>
-    </div>
-
-    <div class="container log">
-        <span class="info-top" id="state">Initializing...</span>
-        <span class="info-top" id="progress"></span><br>
-        <div id="bar">
-            <div id="bar-inner"></div>
-        </div>
-        <span class="info-bot" id="env">&nbsp;</span>
-        <span class="info-bot" id="extra">&nbsp;</span>
-    </div>
-    <div id="reset-button">
-        <br><button class="btn" onclick="reset()">&#8635; Start over</button><br>
-    </div>
-
+&lt;div class=&quot;container log&quot;&gt;
+    &lt;span class=&quot;info-top&quot; id=&quot;state&quot;&gt;Initializing...&lt;/span&gt;
+    &lt;span class=&quot;info-top&quot; id=&quot;progress&quot;&gt;&lt;/span&gt;&lt;br&gt;
+    &lt;div id=&quot;bar&quot;&gt;
+        &lt;div id=&quot;bar-inner&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;span class=&quot;info-bot&quot; id=&quot;env&quot;&gt;&amp;nbsp;&lt;/span&gt;
+    &lt;span class=&quot;info-bot&quot; id=&quot;extra&quot;&gt;&amp;nbsp;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&quot;reset-button&quot;&gt;
+    &lt;br&gt;&lt;button class=&quot;btn&quot; onclick=&quot;reset()&quot;&gt;&amp;#8635; Start over&lt;/button&gt;&lt;br&gt;
+&lt;/div&gt;
+</code></pre></div>
+</td></tr></table>
+</div>
+<p>Powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a></p>
+</div>
 </div>
                 
                   
