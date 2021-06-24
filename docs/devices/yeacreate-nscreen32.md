@@ -10,23 +10,23 @@
         </a>
 </div>
 
-The Nscreen32 uses an ESP32-WROVER-B module with a large 4-inch capacitive touch display.
-The display is connected via an 8-bit parallell bus resulting in a fast performance.
+The Nscreen32 uses an ESP32-WROVER-IE module with a large 4-inch capacitive touch display.
+The display is connected via an 8-bit parallel bus resulting in a fast performance.
 openHASP can take advantage of the 320x480 resolution to show a large custom user-interface.
-On the back there is an expansion port with 8 GPIOs so you can expand the capabilities as needed.
 
-Nscreen32 is the first device to receive the LVGL Certified Board label.
+On the back there is an expansion port with 8 GPIOs so you can expand the capabilities as needed.
+However, there is no support for backlight control. The display is always-on.
 
 | Pros                   | Cons
 |:-----                  |:----
-| 8-bit Parallell display| No backlight control 
+| 8-bit Parallel display| No backlight control 
 | 16 MB flash            |
 | 8 MB PSram             |
 | Viewing angles         |
 | Capacitive Touchscreen |
 | External antenna       |
 
-[:material-cart-variant: Buy][1]{ .md-button .md-button--primary }
+[:material-cart-variant: YeaCreate Store][1]{ .md-button .md-button--primary }
 
 The development board is powered via micro USB.
 
