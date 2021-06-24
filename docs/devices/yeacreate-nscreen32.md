@@ -1,13 +1,17 @@
 # YeaCreate Nscreen32
 
 <div class="row justify-content-center">
-        <a href="https://store.yeacreate.com/uploads/image/2021/01/25/YeaCreate_Nscre__en32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="WT32-SC01 Front" data-footer="">
-            <img src="https://store.yeacreate.com/uploads/image/2021/01/25/YeaCreate_Nscre__en32.jpg" class="img-fluid">
-        </a>
+    <a href="https://store.yeacreate.com/uploads/image/2021/01/25/YeaCreate_Nscre__en32.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Nscreen32 Front" data-footer="Copyright &copy; 2017-2021 YeaCreate - All Rights Reserved.">
+        <img src="https://store.yeacreate.com/uploads/image/2021/01/25/YeaCreate_Nscre__en32.jpg" class="img-fluid">
+    </a>
 
-        <a href="https://store.yeacreate.com/uploads/image/2021/03/23/YeaCreate_Nscreen32__background2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="WT32-SC01 Back" data-footer="">
-            <img src="https://store.yeacreate.com/uploads/image/2021/03/23/YeaCreate_Nscreen32__background2.jpg" class="img-fluid">
-        </a>
+    <a href="https://store.yeacreate.com/uploads/image/2021/03/23/YeaCreate_Nscreen32__background2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Nscreen32 Back" data-footer="Copyright &copy; 2017-2021 YeaCreate - All Rights Reserved.">
+        <img src="https://store.yeacreate.com/uploads/image/2021/03/23/YeaCreate_Nscreen32__background2.jpg" class="img-fluid">
+    </a>
+
+    <a href="https://store.yeacreate.com/images/YeaCreate_Nscreen32_controller_en.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Nscreen32 Front" data-footer="Copyright &copy; 2017-2021 YeaCreate - All Rights Reserved.">
+        <img src="https://store.yeacreate.com/images/YeaCreate_Nscreen32_controller_en.jpg" class="img-fluid">
+    </a>
 </div>
 
 The Nscreen32 uses an ESP32-WROVER-IE module with a large 4-inch capacitive touch display.
@@ -19,7 +23,7 @@ However, there is no support for backlight control. The display is always-on.
 
 | Pros                   | Cons
 |:-----                  |:----
-| 8-bit Parallel display| No backlight control 
+| 8-bit parallel display | No backlight control 
 | 16 MB flash            |
 | 8 MB PSram             |
 | Viewing angles         |
