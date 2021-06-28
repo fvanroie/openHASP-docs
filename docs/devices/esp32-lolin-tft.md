@@ -22,7 +22,7 @@ This Lolin TFT has a 2.4" touchscreen with XPT2046 resistive touch controller.
 There are 3 ways to connect an ESP32:
 
 1. Plug a compatible ESP32 onto the female headers on the back
-2. Attach a [LOLIN D32 Pro V2.0.0][3] using the 10-pin TFT connector and cable
+2. Attach a [LOLIN D32 Pro V2.0][3] using the 10-pin TFT connector and cable
 3. Solder headers onto the bottom pinholes for pluging into a breadboard or jumper cables for any other ESP
 
 | Pros                       | Cons
@@ -45,7 +45,7 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
 
 | Model                   | 3.2" Resistive | 3.5" Resistive | 3.5" Capacitive
 |-------------------------|:-------:|:-------:|:--------:
-| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 MINI32 ESP32][2] | [LOLIN D32 Pro V2.0.0][3]
+| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 MINI32 ESP32][2] | [LOLIN D32 Pro V2.0][3]
 | MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROVER
 | Flash                   | 4 MB    | 4 MB   | 4 or 16 MB
 | PSram                   | No      | 8 MB    | 8 MB
@@ -67,7 +67,7 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
 
 ## Product Video
 
-![YOUTUBE](sdVtHU2Gz7Y)
+![YOUTUBE](bNdo3G_vKTY)
 
 ## Backlight Control
 
