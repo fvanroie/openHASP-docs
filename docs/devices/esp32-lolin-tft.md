@@ -39,21 +39,17 @@ There are 3 ways to connect an ESP32:
 
 The Lolin TFT 2.4" headers are plug-and-play compatible with these development boards, no need to use any jumper cables:
 
-- Wemos D1 Mini ESP32 (only solder the inner row of pin headers)
-- TTGO T7 V1.5 MINI32 ESP32 (only solder the inner row of pin headers)
-- LOLIN D32 Pro V2.0.0 using an additional TFT cable
-
-| Model                   | 3.2" Resistive | 3.5" Resistive | 3.5" Capacitive
+| Model                   | Minimal | Better | Best
 |-------------------------|:-------:|:-------:|:--------:
 | SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [Lolin D32 Pro V2.0][3]
 | MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROVER
 | Flash                   | 4 MB    | 4 MB   | 4 or 16 MB
 | PSram                   | No      | 8 MB    | 8 MB
-| Connection              | Two 1x8 Pinheaders² | Two 1x8 Pinheaders² | [10-pin TFT cable][5]
+| Connection              | Two 1x8 Pinheaders² | Two 1x8 Pinheaders² | [10-pin TFT cable][5] *(optional)*
 | SD Card                 | no | no | :white_check_mark: yes
-| Battery charging        | no | yes | yes
+| Battery charging        | no | :white_check_mark: yes | :white_check_mark: yes
 | USB Chip                | | CH9102F | CH340C
-| PWM Screen dimming      | :question_mark: tbd    | :question_mark: tbd    | :question_mark: tbd   
+| PWM Screen dimming      | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes   
 | | [:material-cart-variant: Buy][1]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][2]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary }
 
 !!! warning
@@ -63,44 +59,44 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
     (²) Because the board is developed for the D1-mini, you must *only* solder a row of 1x8 male pins to pads `TXD-5V` and `RST-3V3` each.
 
 
+## Product Video
+
+![YOUTUBE](bNdo3G_vKTY)
+
+
 ## Backlight Control
 
-To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1, D2 or D4.
-**D1 is recommended** for backlight control and configured by default.
+To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1 or D2.
+**D1 is recommended** for backlight control and configured by default in the firmware.
 
 ![TFT-LED PWM dimming](../assets/images/tft-led-pwm.png)
 
 !!! warning
     Do *not* use D3 for backlight control because it is already in use for touch!</br>
-    Do *not* use D4 for backlight control because it is already in use for PSram on the ESP32-Wrover.
-    and the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW
+    Do *not* use D4 for backlight control because it is already in use for PSram on the ESP32-WROVER,
+    also the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW
 
-## Product Video
-
-![YOUTUBE](bNdo3G_vKTY)
-
-## Backlight Control
-
-To enable backlight control, make sure the solder jumper pad is in position 2-1:
-
-![Backlight Control](../assets/images/devices/esp32-touchdown-backlight.png)
 
 ## 3D Printed Cases
 
 You can find several different [3D printable cases](https://github.com/DustinWatts/esp32-touchdown/tree/main/Case) in the [ESP32 TouchDown repository](https://github.com/DustinWatts/esp32-touchdown/):
 
+
 ## Flashing
 
 The ESP32 can be flashed over USB like any ESP32 development board.
+
 
 ## GPIO Settings
 
 These pins can be used freely as GPIOs:
 
+
 ## Documentation
 
 [:material-book-open-page-variant: Wemos Wiki][6]{ .md-button .md-button } &nbsp;
 [:material-file-pdf-outline: Schematics][7]{ .md-button .md-button }
+
 
 ## Dimensions
 
