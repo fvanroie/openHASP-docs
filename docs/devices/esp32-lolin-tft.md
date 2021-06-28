@@ -45,11 +45,11 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
 
 | Model                   | 3.2" Resistive | 3.5" Resistive | 3.5" Capacitive
 |-------------------------|:-------:|:-------:|:--------:
-| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 MINI32 ESP32][2] | [LOLIN D32 Pro V2.0][3]
+| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [Lolin D32 Pro V2.0][3]
 | MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROVER
 | Flash                   | 4 MB    | 4 MB   | 4 or 16 MB
 | PSram                   | No      | 8 MB    | 8 MB
-| Connection              | 2 1x8 Pinheader(*) | 2 1x8 Pinheader(*) | [10-pin TFT cable][5]
+| Connection              | Two 1x8 Pinheaders² | Two 1x8 Pinheaders² | [10-pin TFT cable][5]
 | SD Card                 | no | no | :white_check_mark: yes
 | Battery charging        | no | yes | yes
 | USB Chip                | | CH9102F | CH340C
@@ -60,7 +60,7 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
     The D1 Mini ESP32 board may suffer from brown-out reboots if not powered adequately.
 
 !!! note
-    (*) Because the board is developed for the D1-mini, you must *only* solder a row of 1x8 male pins to pads `TXD-5V` and `RST-3V3` each.
+    (²) Because the board is developed for the D1-mini, you must *only* solder a row of 1x8 male pins to pads `TXD-5V` and `RST-3V3` each.
 
 
 
@@ -87,16 +87,14 @@ The ESP32 TouchDown can easily be flashed over USB like any ESP32 development bo
 
 These pins can be used freely as GPIOs:
 
-## PCB Blueprint
+## Documentation
 
-The ESP32 TouchDown is fully [Open Source Hardware](https://github.com/DustinWatts/esp32-touchdown/tree/main/Hardware):
+[:material-book-open-page-variant: Wemos Wiki][6]{ .md-button .md-button } &nbsp;
+[:material-file-pdf-outline: Schematics][7]{ .md-button .md-button }
 
-- Schematics
-- Bill of materials
-- PCB layout
-- Datasheets
+## Dimensions
 
-![PCB Dimensions](../assets/images/devices/esp32-touchdown-dimensions.png)
+![PCB Dimensions](../assets/images/devices/lolin-24-tft-shield-dimensions.jpg)
 
 
 [1]: https://www.aliexpress.com/item/32815530502.html
@@ -104,3 +102,5 @@ The ESP32 TouchDown is fully [Open Source Hardware](https://github.com/DustinWat
 [3]: https://www.aliexpress.com/item/32883116057.html
 [4]: https://www.aliexpress.com/item/32919729730.html
 [5]: https://www.aliexpress.com/item/32848833474.html
+[6]: https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html
+[7]: https://www.wemos.cc/en/latest/_static/files/sch_tft2.4_v1.0.0.pdf
