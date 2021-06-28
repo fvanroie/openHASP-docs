@@ -1106,15 +1106,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#esp32" class="md-nav__link">
-    ESP32
+  <a href="#tft-24-touch-shield" class="md-nav__link">
+    TFT 2.4" Touch Shield
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tft-24-touch-shield" class="md-nav__link">
-    TFT 2.4 Touch Shield
+  <a href="#esp32-dev-board" class="md-nav__link">
+    ESP32 dev board
   </a>
   
 </li>
@@ -1161,13 +1161,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#hasp-build_flags" class="md-nav__link">
-    HASP build_flags
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1202,12 +1195,13 @@
         <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown-features.png" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission"></a>
 </div>
 
+<h2 id="tft-24-touch-shield">TFT 2.4" Touch Shield<a class="headerlink" href="#tft-24-touch-shield" title="Permanent link">~</a></h2>
 <p>This Lolin TFT has a 2.4" touchscreen with XPT2046 resistive touch controller.
 There are 3 ways to connect an ESP32:</p>
 <ol>
-<li>Plug an ESP into the female headers on the back</li>
-<li>Attach an ESP using the 10-pin TFT connector and cable.</li>
-<li>Solder headers onto the bottom pinholes for pluggin into a breadboard or jumper cables.</li>
+<li>Plug a compatible ESP32 onto the female headers on the back</li>
+<li>Attach a <a href="https://www.aliexpress.com/item/32883116057.html">LOLIN D32 Pro V2.0.0</a> using the 10-pin TFT connector and cable</li>
+<li>Solder headers onto the bottom pinholes for pluging into a breadboard or jumper cables for any other ESP</li>
 </ol>
 <table>
 <thead>
@@ -1235,8 +1229,9 @@ There are 3 ways to connect an ESP32:</p>
 </tr>
 </tbody>
 </table>
-<h2 id="esp32">ESP32<a class="headerlink" href="#esp32" title="Permanent link">~</a></h2>
-<p>The Lolin TFT 2.4" header is plug-and-play compatible with these development boards, no need to use any jumper cables:</p>
+<p><a class="md-button md-button--primary" href="https://www.aliexpress.com/item/32919729730.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a></p>
+<h2 id="esp32-dev-board">ESP32 dev board<a class="headerlink" href="#esp32-dev-board" title="Permanent link">~</a></h2>
+<p>The Lolin TFT 2.4" headers are plug-and-play compatible with these development boards, no need to use any jumper cables:</p>
 <ul>
 <li>Wemos D1 Mini ESP32 (only solder the inner row of pin headers)</li>
 <li>TTGO T7 V1.5 MINI32 ESP32 (only solder the inner row of pin headers)</li>
@@ -1254,7 +1249,7 @@ There are 3 ways to connect an ESP32:</p>
 <tbody>
 <tr>
 <td>SKU</td>
-<td align="center"><a href="https://www.aliexpress.com/item/32815530502.html">Wemos D1 Mini ESP32</a></td>
+<td align="center"><a href="https://www.aliexpress.com/item/32815530502.html">D1 Mini ESP32</a></td>
 <td align="center"><a href="https://www.aliexpress.com/item/32977375539.html">TTGO T7 V1.5 MINI32 ESP32</a></td>
 <td align="center"><a href="https://www.aliexpress.com/item/32883116057.html">LOLIN D32 Pro V2.0.0</a></td>
 </tr>
@@ -1267,8 +1262,8 @@ There are 3 ways to connect an ESP32:</p>
 <tr>
 <td>Flash</td>
 <td align="center">4 MB</td>
-<td align="center">16 MB</td>
-<td align="center">16 MB</td>
+<td align="center">4 MB</td>
+<td align="center">4 or 16 MB</td>
 </tr>
 <tr>
 <td>PSram</td>
@@ -1278,8 +1273,8 @@ There are 3 ways to connect an ESP32:</p>
 </tr>
 <tr>
 <td>Connection</td>
-<td align="center">2x8 Pinheader</td>
-<td align="center">2x8 Pinheader</td>
+<td align="center">2 1x8 Pinheader(*)</td>
+<td align="center">2 1x8 Pinheader(*)</td>
 <td align="center"><a href="https://www.aliexpress.com/item/32848833474.html">10-pin TFT cable</a></td>
 </tr>
 <tr>
@@ -1295,6 +1290,12 @@ There are 3 ways to connect an ESP32:</p>
 <td align="center">yes</td>
 </tr>
 <tr>
+<td>USB Chip</td>
+<td align="center"></td>
+<td align="center">CH9102F</td>
+<td align="center">CH340C</td>
+</tr>
+<tr>
 <td>PWM Screen dimming</td>
 <td align="center">:question_mark: tbd</td>
 <td align="center">:question_mark: tbd</td>
@@ -1308,24 +1309,14 @@ There are 3 ways to connect an ESP32:</p>
 </tr>
 </tbody>
 </table>
-<ul>
-<li>ESP32-WROOM-32D</li>
-<li>ILI9488 3.5" (480*320) TFT screen in 4-wire SPI mode</li>
-<li>FT62x6 Capacitive Touch Controller</li>
-<li>APK2112 3.3V regulator</li>
-<li>MCP73831 battery management IC</li>
-<li>CP2102 USB-to-UART IC</li>
-<li>USB-C connector</li>
-<li>Piezo Speaker</li>
-<li>microSD card holder</li>
-<li>Battery voltage divider connected to GPIO35</li>
-<li>Stemma / JST-PH I2C connector</li>
-<li>Compact size: 100x57x15mm</li>
-</ul>
-<h2 id="tft-24-touch-shield">TFT 2.4 Touch Shield<a class="headerlink" href="#tft-24-touch-shield" title="Permanent link">~</a></h2>
-<p><a class="md-button md-button--primary" href="https://www.aliexpress.com/item/32919729730.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a></p>
-<p>Available on
-<a href="https://www.tindie.com/products/dustinwattsnl/esp32-touchdown/"><img alt="Tindie" src="../../assets/images/tindie-logo.png" /></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The D1 Mini ESP32 board may suffer from brown-out reboots if not powered adequately.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>(<em>) Because the board is developed for the D1-mini, you must </em>only* solder a row of 1x8 male pins to pads <code>TXD-5V</code> and <code>RST-3V3</code> each.</p>
+</div>
 <h2 id="product-video">Product Video<a class="headerlink" href="#product-video" title="Permanent link">~</a></h2>
 <p><img alt="YOUTUBE" src="sdVtHU2Gz7Y" /></p>
 <h2 id="backlight-control">Backlight Control<a class="headerlink" href="#backlight-control" title="Permanent link">~</a></h2>
@@ -1346,59 +1337,6 @@ There are 3 ways to connect an ESP32:</p>
 <li>Datasheets</li>
 </ul>
 <p><img alt="PCB Dimensions" src="../../assets/images/devices/esp32-touchdown-dimensions.png" /></p>
-<h2 id="hasp-build_flags">HASP build_flags<a class="headerlink" href="#hasp-build_flags" title="Permanent link">~</a></h2>
-<p>Specify the LCD Configuration to use and define the GPIOs in the environment build flags:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="na">build_flags</span> <span class="o">=</span>
-    <span class="na">${env.build_flags}</span>
-    <span class="na">${esp32.build_flags}</span>
-    <span class="na">${esp32.vspi}        ; Use VSPI hardware SPI bus</span>
-
-<span class="c1">;region -- TFT_eSPI build options ------------------------</span>
-    <span class="na">-D USER_SETUP_LOADED</span><span class="o">=</span><span class="s">1</span>
-    <span class="na">-D ILI9488_DRIVER</span><span class="o">=</span><span class="s">1</span>
-    <span class="na">-D TFT_ROTATION</span><span class="o">=</span><span class="s">0 ; 0=0, 1=90, 2=180 or 3=270 degree</span>
-    <span class="na">-D TFT_WIDTH</span><span class="o">=</span><span class="s">320</span>
-    <span class="na">-D TFT_HEIGHT</span><span class="o">=</span><span class="s">480</span>
-    <span class="na">-D TFT_CS</span><span class="o">=</span><span class="s">15  ;// Chip select control pin</span>
-    <span class="na">-D TFT_DC</span><span class="o">=</span><span class="s">2  ;// Data Command control pin</span>
-    <span class="na">-D TFT_RST</span><span class="o">=</span><span class="s">4 ;// Reset pin (could connect to RST pin)</span>
-    <span class="na">-D TFT_BCKL</span><span class="o">=</span><span class="s">5  ;None, configurable via web UI (e.g. 2 for D4)</span>
-    <span class="na">-D SUPPORT_TRANSACTIONS</span>
-    <span class="na">-D TOUCH_DRIVER</span><span class="o">=</span><span class="s">6336 ; XPT2606 Resistive touch panel driver </span>
-    <span class="na">-D TOUCH_SDA</span><span class="o">=</span><span class="s">21</span>
-    <span class="na">-D TOUCH_SCL</span><span class="o">=</span><span class="s">22</span>
-    <span class="na">-D TOUCH_IRQ</span><span class="o">=</span><span class="s">27   ; not connected</span>
-    <span class="na">-D TOUCH_RST</span><span class="o">=</span><span class="s">-1   ; not used, connected to 3.3V</span>
-    <span class="na">-D TOUCH_FREQUENCY</span><span class="o">=</span><span class="s">400000</span>
-    <span class="na">-D SPI_FREQUENCY</span><span class="o">=</span><span class="s">27000000</span>
-    <span class="na">-D SPI_READ_FREQUENCY</span><span class="o">=</span><span class="s">16000000</span>
-<span class="c1">;endregion</span>
-</code></pre></div>
-</td></tr></table>
                 
                   
                     
