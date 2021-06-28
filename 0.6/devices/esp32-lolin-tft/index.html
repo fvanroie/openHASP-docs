@@ -1155,8 +1155,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pcb-blueprint" class="md-nav__link">
-    PCB Blueprint
+  <a href="#documentation" class="md-nav__link">
+    Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dimensions" class="md-nav__link">
+    Dimensions
   </a>
   
 </li>
@@ -1250,8 +1257,8 @@ There are 3 ways to connect an ESP32:</p>
 <tr>
 <td>SKU</td>
 <td align="center"><a href="https://www.aliexpress.com/item/32815530502.html">D1 Mini ESP32</a></td>
-<td align="center"><a href="https://www.aliexpress.com/item/32977375539.html">TTGO T7 V1.5 MINI32 ESP32</a></td>
-<td align="center"><a href="https://www.aliexpress.com/item/32883116057.html">LOLIN D32 Pro V2.0</a></td>
+<td align="center"><a href="https://www.aliexpress.com/item/32977375539.html">TTGO T7 V1.5 Mini32 ESP32</a></td>
+<td align="center"><a href="https://www.aliexpress.com/item/32883116057.html">Lolin D32 Pro V2.0</a></td>
 </tr>
 <tr>
 <td>MCU</td>
@@ -1273,8 +1280,8 @@ There are 3 ways to connect an ESP32:</p>
 </tr>
 <tr>
 <td>Connection</td>
-<td align="center">2 1x8 Pinheader(*)</td>
-<td align="center">2 1x8 Pinheader(*)</td>
+<td align="center">Two 1x8 Pinheaders²</td>
+<td align="center">Two 1x8 Pinheaders²</td>
 <td align="center"><a href="https://www.aliexpress.com/item/32848833474.html">10-pin TFT cable</a></td>
 </tr>
 <tr>
@@ -1315,7 +1322,7 @@ There are 3 ways to connect an ESP32:</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>(<em>) Because the board is developed for the D1-mini, you must </em>only* solder a row of 1x8 male pins to pads <code>TXD-5V</code> and <code>RST-3V3</code> each.</p>
+<p>(²) Because the board is developed for the D1-mini, you must <em>only</em> solder a row of 1x8 male pins to pads <code>TXD-5V</code> and <code>RST-3V3</code> each.</p>
 </div>
 <h2 id="product-video">Product Video<a class="headerlink" href="#product-video" title="Permanent link">~</a></h2>
 <p><img alt="YOUTUBE" src="bNdo3G_vKTY" /></p>
@@ -1328,15 +1335,11 @@ There are 3 ways to connect an ESP32:</p>
 <p>The ESP32 TouchDown can easily be flashed over USB like any ESP32 development board.</p>
 <h2 id="gpio-settings">GPIO Settings<a class="headerlink" href="#gpio-settings" title="Permanent link">~</a></h2>
 <p>These pins can be used freely as GPIOs:</p>
-<h2 id="pcb-blueprint">PCB Blueprint<a class="headerlink" href="#pcb-blueprint" title="Permanent link">~</a></h2>
-<p>The ESP32 TouchDown is fully <a href="https://github.com/DustinWatts/esp32-touchdown/tree/main/Hardware">Open Source Hardware</a>:</p>
-<ul>
-<li>Schematics</li>
-<li>Bill of materials</li>
-<li>PCB layout</li>
-<li>Datasheets</li>
-</ul>
-<p><img alt="PCB Dimensions" src="../../assets/images/devices/esp32-touchdown-dimensions.png" /></p>
+<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">~</a></h2>
+<p><a class="md-button md-button" href="https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg></span> Wemos Wiki</a> &nbsp;
+<a class="md-button md-button" href="https://www.wemos.cc/en/latest/_static/files/sch_tft2.4_v1.0.0.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 2 6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8m4 18V9h-5V4H6v16h12m-7.08-7.69c-.24-.77-.77-3.23.63-3.27 1.4-.04.48 3.12.48 3.12.39 1.49 2.02 2.56 2.02 2.56.5-.15 3.35-.48 2.95 1-.43 1.48-3.5.09-3.5.09-1.95.14-3.41.66-3.41.66-1.13 2.11-2.45 3.03-2.99 2.14-.67-1.11 2.13-2.54 2.13-2.54 1.45-2.35 1.67-3.72 1.69-3.76m.65.84c-.4 1.3-1.2 2.69-1.2 2.69.85-.34 2.71-.73 2.71-.73-1.14-1-1.49-1.95-1.51-1.96m3.14 2.17s1.75.65 1.79.39c.07-.27-1.33-.51-1.79-.39m-5.66 1.49c-.77.3-1.51 1.58-1.33 1.58.18.01.91-.6 1.33-1.58m2.52-5.55c0-.05.43-1.68 0-1.73-.3-.03-.01 1.69 0 1.73z"/></svg></span> Schematics</a></p>
+<h2 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">~</a></h2>
+<p><img alt="PCB Dimensions" src="../../assets/images/devices/lolin-24-tft-shield-dimensions.jpg" /></p>
                 
                   
                     
