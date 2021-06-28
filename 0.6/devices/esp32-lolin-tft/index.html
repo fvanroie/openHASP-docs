@@ -1120,6 +1120,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#backlight-control" class="md-nav__link">
+    Backlight Control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#product-video" class="md-nav__link">
     Product Video
   </a>
@@ -1127,7 +1134,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#backlight-control" class="md-nav__link">
+  <a href="#backlight-control_1" class="md-nav__link">
     Backlight Control
   </a>
   
@@ -1324,15 +1331,25 @@ There are 3 ways to connect an ESP32:</p>
 <p class="admonition-title">Note</p>
 <p>(²) Because the board is developed for the D1-mini, you must <em>only</em> solder a row of 1x8 male pins to pads <code>TXD-5V</code> and <code>RST-3V3</code> each.</p>
 </div>
+<h2 id="backlight-control">Backlight Control<a class="headerlink" href="#backlight-control" title="Permanent link">~</a></h2>
+<p>To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1, D2 or D4.
+<strong>D1 is recommended</strong> for backlight control and configured by default.</p>
+<p><img alt="TFT-LED PWM dimming" src="../../assets/images/tft-led-pwm.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do <em>not</em> use D3 for backlight control because it is already in use for touch!</br>
+Do <em>not</em> use D4 for backlight control because it is already in use for PSram on the ESP32-Wrover.
+and the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW</p>
+</div>
 <h2 id="product-video">Product Video<a class="headerlink" href="#product-video" title="Permanent link">~</a></h2>
 <p><img alt="YOUTUBE" src="bNdo3G_vKTY" /></p>
-<h2 id="backlight-control">Backlight Control<a class="headerlink" href="#backlight-control" title="Permanent link">~</a></h2>
+<h2 id="backlight-control_1">Backlight Control<a class="headerlink" href="#backlight-control_1" title="Permanent link">~</a></h2>
 <p>To enable backlight control, make sure the solder jumper pad is in position 2-1:</p>
 <p><img alt="Backlight Control" src="../../assets/images/devices/esp32-touchdown-backlight.png" /></p>
 <h2 id="3d-printed-cases">3D Printed Cases<a class="headerlink" href="#3d-printed-cases" title="Permanent link">~</a></h2>
 <p>You can find several different <a href="https://github.com/DustinWatts/esp32-touchdown/tree/main/Case">3D printable cases</a> in the <a href="https://github.com/DustinWatts/esp32-touchdown/">ESP32 TouchDown repository</a>:</p>
 <h2 id="flashing">Flashing<a class="headerlink" href="#flashing" title="Permanent link">~</a></h2>
-<p>The ESP32 TouchDown can easily be flashed over USB like any ESP32 development board.</p>
+<p>The ESP32 can be flashed over USB like any ESP32 development board.</p>
 <h2 id="gpio-settings">GPIO Settings<a class="headerlink" href="#gpio-settings" title="Permanent link">~</a></h2>
 <p>These pins can be used freely as GPIOs:</p>
 <h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">~</a></h2>
