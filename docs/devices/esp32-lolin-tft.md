@@ -63,7 +63,17 @@ The Lolin TFT 2.4" headers are plug-and-play compatible with these development b
     (²) Because the board is developed for the D1-mini, you must *only* solder a row of 1x8 male pins to pads `TXD-5V` and `RST-3V3` each.
 
 
+## Backlight Control
 
+To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1, D2 or D4.
+**D1 is recommended** for backlight control and configured by default.
+
+![TFT-LED PWM dimming](../assets/images/tft-led-pwm.png)
+
+!!! warning
+    Do *not* use D3 for backlight control because it is already in use for touch!</br>
+    Do *not* use D4 for backlight control because it is already in use for PSram on the ESP32-Wrover.
+    and the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW
 
 ## Product Video
 
@@ -81,7 +91,7 @@ You can find several different [3D printable cases](https://github.com/DustinWat
 
 ## Flashing
 
-The ESP32 TouchDown can easily be flashed over USB like any ESP32 development board.
+The ESP32 can be flashed over USB like any ESP32 development board.
 
 ## GPIO Settings
 
