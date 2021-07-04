@@ -31,7 +31,7 @@ On the back there is an SD-card slot, USB-C connector and expansion port with 14
 | Touch Screen            | Resistive | Resistive | Capacitive
 | OV2640 Camera           | 2M pixel | 2M pixel | 2M pixel
 | SD Card                 | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes
-| PWM Screen dimming      | :question_mark: tbd    | :question_mark: tbd    | :question_mark: tbd   
+| PWM Screen dimming      | :x: no    | :x: no    | :x: no
 | | [:material-cart-variant: Buy][1]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][2]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary }
 
 

@@ -1,4 +1,4 @@
-# ESP32 Lolin TFT 2.4 Touch Shield
+# ESP32 Lolin TFT 2.4" Touch Shield
 
 <div class="row justify-content-center">
         <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission">
@@ -35,7 +35,7 @@ There are 3 ways to connect an ESP32:
 [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
 
 
-## ESP32 dev board
+## ESP32 dev boards
 
 The Lolin TFT 2.4" headers are plug-and-play compatible with these development boards, no need to use any jumper cables:
 
@@ -85,11 +85,6 @@ You can find several different [3D printable cases](https://github.com/DustinWat
 ## Flashing
 
 The ESP32 can be flashed over USB like any ESP32 development board.
-
-
-## GPIO Settings
-
-These pins can be used freely as GPIOs:
 
 
 ## Documentation
