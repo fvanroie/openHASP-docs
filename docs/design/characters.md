@@ -1,6 +1,6 @@
 <h1>Languages</h1>
 
-## Encoding
+## Encodings
 
 The character sets are encoded in UTF-8. All character sets contain the ASCII 0x20-0x7E characters and the non-braking-space (NBSP). Each set contains roughly the same *extended* characters from its equivalent [iso-8859 standard](https://en.wikipedia.org/wiki/ISO/IEC_8859).
 
@@ -10,7 +10,7 @@ All character sets also contain about 100 standaard Material Design Icons for ho
 
 The default font in pre-compiled binaries is Roboto-Condensed-Regular with the Latin 1 character set. There is no support for right-to-left scipts.
 
-## Ascii
+### Ascii
 
 Includes all ASCII 0x20-0x7E characters extended with these 11 *universal* symbols: 
 
@@ -27,11 +27,11 @@ NBSP
 &#x2022;
 
 
-## Latin 1
+### Latin 1
 
 Includes all characters and symbols from the ASCII range above.
 
-Covers Northern, Western and Southern European languages: English (en), French (fr), Spanish (es), Portuguese (pt), Italian (it), Dutch (nl), German (de), Danish (da), Swedish (sv), Norwegian (no), Finnish (fi), Turkish (tr)
+Covers Northern, Western and Southern European languages: English (en), French (fr), Spanish (es), Portuguese (pt), Italian (it), Dutch (nl), German (de), Danish (da), Swedish (sv), Norwegian (no), Finnish (fi), Icelandic (is), Turkish (tr)
 
 &#x00A1;
 &#x00BF;
@@ -51,6 +51,7 @@ Covers Northern, Western and Southern European languages: English (en), French (
 &#x00CD;
 &#x00CE;
 &#x00CF;
+&#x00D0;
 &#x00D1;
 &#x00D2;
 &#x00D3;
@@ -111,7 +112,7 @@ Covers Northern, Western and Southern European languages: English (en), French (
 &#x1E9E;
 
 
-## Latin 2
+### Latin 2
 
 Includes all characters and symbols from the ASCII range above.
 
@@ -199,7 +200,7 @@ Covers Central and Eastern European languages: Czech (cs), Hungarian (hu), Polis
 &#x021B;
 
 
-## Chinese
+### Chinese
 
 Includes all characters and symbols from the ASCII range above, plus 650 most common CJK radicals:
 
@@ -1525,7 +1526,7 @@ Includes all characters and symbols from the ASCII range above, plus 650 most co
 -->
 
 
-## Characters
+## Character List
 
 {{ read_csv("docs/assets/csv/characters.csv") }}
 
