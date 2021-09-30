@@ -1,4 +1,4 @@
-# ESP32 Lolin TFT 2.4" Touch Shield
+# AZ-Touch MOD (for ESP32)
 
 <div class="row justify-content-center">
         <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.4&quot; touchscreen" data-footer="Copyright az-delivery.de">
@@ -31,6 +31,9 @@ There are 2 ways to connect an ESP32:
 | Versatile PCB              | Big enclosure
 | Limited soldering required | Resistive touchpanel
 | Choice of several ESP32 MCUs |
+| 9 to 35V DC power input    |
+| Integrated piezo beeper
+| Breadboard area 
 
 [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
 
@@ -61,7 +64,7 @@ The AZ-Touch MOD PCB is plug-and-play compatible with these development boards, 
 
 ## Product Video
 
-![YOUTUBE](bNdo3G_vKTY)
+![YOUTUBE](JvdXCSyFyOA)
 
 
 ## Backlight Control
@@ -77,10 +80,10 @@ To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to eit
     also the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW
 
 
-## 3D Printed Cases
+## Enclosure
 
-You can find several different [3D printable cases](https://github.com/DustinWatts/esp32-touchdown/tree/main/Case) in the [ESP32 TouchDown repository](https://github.com/DustinWatts/esp32-touchdown/):
-
+AZ-Touch comes with a nice wall mounting enclosure for the 2.4&quot; or 2.8&quot; touchscreen.
+It enables you to mount your project permanent in your living room, corridor or other exposed places. 
 
 ## Flashing
 
@@ -89,8 +92,8 @@ The ESP32 can be flashed over USB like any ESP32 development board.
 
 ## Documentation
 
-[:material-book-open-page-variant: Wemos Wiki][6]{ .md-button .md-button } &nbsp;
-[:material-file-pdf-outline: Schematics][7]{ .md-button .md-button }
+[:material-file-pdf-outline: Schematics][6]{ .md-button .md-button } &nbsp;
+[:material-file-pdf: Datasheet AZ-Touch MOD Rev B][7]{ .md-button .md-button }
 
 
 ## Dimensions
@@ -103,5 +106,5 @@ The ESP32 can be flashed over USB like any ESP32 development board.
 [3]: https://www.aliexpress.com/item/32883116057.html
 [4]: https://www.aliexpress.com/item/32919729730.html
 [5]: https://www.aliexpress.com/item/32848833474.html
-[6]: https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html
-[7]: https://www.wemos.cc/en/latest/_static/files/sch_tft2.4_v1.0.0.pdf
+[6]: https://www.hwhardsoft.de/app/download/11868165697/AZ-Touch+MOD+schematic+V01-03-01.pdf
+[7]: https://www.hwhardsoft.de/app/download/11868164297/Datasheet+AZ-Touch+MOD+Rev+B.pdf
