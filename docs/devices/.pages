@@ -1,4 +1,5 @@
 nav:
+    - arduitouch.md
     - Adafruit Featherwing: featherwing.md
     - ESP32 Lolin TFT Shield: esp32-lolin-tft.md
     - ESP32 TouchDown: esp32-touchdown.md
