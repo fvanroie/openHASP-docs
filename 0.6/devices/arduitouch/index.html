@@ -20,7 +20,7 @@
     
     
       
-        <title>ESP32 Lolin TFT 2.4" Touch Shield - openHASP</title>
+        <title>AZ-Touch MOD (for ESP32) - openHASP</title>
       
     
      
@@ -99,7 +99,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#esp32-lolin-tft-24-touch-shield" class="md-skip">
+        <a href="#az-touch-mod-for-esp32" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ESP32 Lolin TFT 2.4" Touch Shield
+              AZ-Touch MOD (for ESP32)
             
           </span>
         </div>
@@ -886,12 +886,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          ESP32 Lolin TFT 2.4" Touch Shield
+          AZ-Touch MOD (for ESP32)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        ESP32 Lolin TFT 2.4" Touch Shield
+        AZ-Touch MOD (for ESP32)
       </a>
       
         
@@ -937,8 +937,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3d-printed-cases" class="md-nav__link">
-    3D Printed Cases
+  <a href="#enclosure" class="md-nav__link">
+    Enclosure
   </a>
   
 </li>
@@ -1388,8 +1388,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3d-printed-cases" class="md-nav__link">
-    3D Printed Cases
+  <a href="#enclosure" class="md-nav__link">
+    Enclosure
   </a>
   
 </li>
@@ -1432,7 +1432,7 @@
                   </a>
                 
                 
-                <h1 id="esp32-lolin-tft-24-touch-shield">ESP32 Lolin TFT 2.4" Touch Shield<a class="headerlink" href="#esp32-lolin-tft-24-touch-shield" title="Permanent link">~</a></h1>
+                <h1 id="az-touch-mod-for-esp32">AZ-Touch MOD (for ESP32)<a class="headerlink" href="#az-touch-mod-for-esp32" title="Permanent link">~</a></h1>
 <div class="row justify-content-center">
         <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.4&quot; touchscreen" data-footer="Copyright az-delivery.de">
             <img src="../../assets/images/devices/arduitouch24-front.jpg" class="img-fluid">
@@ -1475,6 +1475,18 @@
 </tr>
 <tr>
 <td align="left">Choice of several ESP32 MCUs</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">9 to 35V DC power input</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Integrated piezo beeper</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Breadboard area</td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -1563,7 +1575,7 @@
 <p>(²) Because the board is developed for the D1-mini, you must <em>only</em> solder a row of 1x8 male pins to pads <code>TXD-5V</code> and <code>RST-3V3</code> each.</p>
 </div>
 <h2 id="product-video">Product Video<a class="headerlink" href="#product-video" title="Permanent link">~</a></h2>
-<p><img alt="YOUTUBE" src="bNdo3G_vKTY" /></p>
+<p><img alt="YOUTUBE" src="JvdXCSyFyOA" /></p>
 <h2 id="backlight-control">Backlight Control<a class="headerlink" href="#backlight-control" title="Permanent link">~</a></h2>
 <p>To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1 or D2.
 <strong>D1 is recommended</strong> for backlight control and configured by default in the firmware.</p>
@@ -1574,13 +1586,14 @@
 Do <em>not</em> use D4 for backlight control because it is already in use for PSram on the ESP32-WROVER,
 also the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW</p>
 </div>
-<h2 id="3d-printed-cases">3D Printed Cases<a class="headerlink" href="#3d-printed-cases" title="Permanent link">~</a></h2>
-<p>You can find several different <a href="https://github.com/DustinWatts/esp32-touchdown/tree/main/Case">3D printable cases</a> in the <a href="https://github.com/DustinWatts/esp32-touchdown/">ESP32 TouchDown repository</a>:</p>
+<h2 id="enclosure">Enclosure<a class="headerlink" href="#enclosure" title="Permanent link">~</a></h2>
+<p>AZ-Touch comes with a nice wall mounting enclosure for the 2.4&quot; or 2.8&quot; touchscreen.
+It enables you to mount your project permanent in your living room, corridor or other exposed places. </p>
 <h2 id="flashing">Flashing<a class="headerlink" href="#flashing" title="Permanent link">~</a></h2>
 <p>The ESP32 can be flashed over USB like any ESP32 development board.</p>
 <h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">~</a></h2>
-<p><a class="md-button md-button" href="https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg></span> Wemos Wiki</a> &nbsp;
-<a class="md-button md-button" href="https://www.wemos.cc/en/latest/_static/files/sch_tft2.4_v1.0.0.pdf">:material-file-pdf-outline: Schematics</a></p>
+<p><a class="md-button md-button" href="https://www.hwhardsoft.de/app/download/11868165697/AZ-Touch+MOD+schematic+V01-03-01.pdf">:material-file-pdf-outline: Schematics</a> &nbsp;
+<a class="md-button md-button" href="https://www.hwhardsoft.de/app/download/11868164297/Datasheet+AZ-Touch+MOD+Rev+B.pdf">:material-file-pdf: Datasheet AZ-Touch MOD Rev B</a></p>
 <h2 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">~</a></h2>
 <p><img alt="PCB Dimensions" src="../../assets/images/devices/lolin-24-tft-shield-dimensions.jpg" /></p>
                 
@@ -1591,7 +1604,7 @@ also the D1-mini has D4 connected to the on-board LED and boot fails if pulled L
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-09-30
+      Last update: 2021-10-01
     
   </small>
 </div>
