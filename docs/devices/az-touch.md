@@ -37,9 +37,9 @@ There are 2 ESP32 footprint options for soldering headers onto the PCB:
 
 The AZ-Touch MOD PCB is plug-and-play compatible with these development boards, no need to use any jumper cables:
 
-| Model                   | Minimal | Better | Best
-|-------------------------|:-------:|:-------:|:--------:|
-| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [Dev Kit C V4][3] | [ESP32-DevKitC-VE][4]
+| Model                   | Minimal | Better | Best |
+|-------------------------|:-------:|:-------:|:--------:|:--------:
+| SKU                     | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [ESP32-DevKitC-V4][3] | [ESP32-DevKitC-VE][4]
 | MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROVER | ESP32-WROVER
 | Flash                   | 4 MB    | 4 MB   | 4 or 16 MB | 8 MB
 | PSram                   | No      | 8 MB    | 8 MB      | 8 MB
