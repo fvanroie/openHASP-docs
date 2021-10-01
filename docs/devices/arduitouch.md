@@ -1,4 +1,4 @@
-# AZ-Touch MOD (for ESP32)
+# AZ-Touch MOD for ESP32
 
 <div class="row justify-content-center">
         <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.Main_ArduiTouch_1x_5a91fd6e-d707-48a1-bbae-31d001aaf76a_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.4&quot; touchscreen" data-footer="Copyright az-delivery.de">
@@ -91,8 +91,8 @@ The ESP32 can be flashed over USB like any ESP32 development board.
 
 ## Documentation
 
-[:material-file-pdf-outline: Schematics][6]{ .md-button .md-button } &nbsp;
-[:material-file-pdf: Datasheet AZ-Touch MOD Rev B][7]{ .md-button .md-button }
+[:fontawesome-solid-file-pdf: Schematics][6]{ .md-button .md-button } &nbsp;
+[:fontawesome-regular-file-pdf: Datasheet AZ-Touch MOD Rev B][7]{ .md-button .md-button }
 
 
 ## Dimensions
