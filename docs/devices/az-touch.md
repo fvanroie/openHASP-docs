@@ -39,13 +39,12 @@ The AZ-Touch MOD PCB is plug-and-play compatible with these development boards, 
 
 | Board                   | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [ESP32-DevKitC-V4][3] | [ESP32-DevKitC-VE][4]
 |-------------------------|:-------:|:-------:|:--------:|:--------:
-| MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROVER | ESP32-WROVER
-| Flash                   | 4 MB    | 4 MB   | 4 or 16 MB | 8 MB
+| MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROOM | ESP32-WROVER
+| Flash                   | 4 MB    | 4 MB   | 4 MB | 8 MB
 | PSram                   | No      | 8 MB    | 8 MB      | 8 MB
-| Connection              | Two 1x8 Pinheaders² | Two 1x8 Pinheaders² | Two 1x19 Pinheaders | Two 1x19 Pinheaders
-| Battery charging        | no | :white_check_mark: yes | no | no
+| Pinheaders              | Two 1x8 ² | Two 1x8 ² | Two 1x19  | Two 1x19
+| Battery circuit         | no | :white_check_mark: yes | no | no
 | USB Chip                | | CH9102F | CH340C |
-| PWM Screen dimming      | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes | :white_check_mark: yes   
 | | [:material-cart-variant: Buy][1]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][2]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
 
 !!! warning
