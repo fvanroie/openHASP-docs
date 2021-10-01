@@ -35,13 +35,14 @@ There are 2 ESP32 footprint options for soldering headers onto the PCB:
 
 ## ESP32 dev boards
 
-The AZ-Touch MOD PCB is designed to be compatible with these development boards:
+The AZ-Touch MOD PCB kit does *not* come with an MCU and needs to be purchased seperately.
+The PCB is designed to be compatible with these development boards:
 
 | Board                   | [D1 Mini ESP32][1] | [TTGO T7 V1.5 Mini32 ESP32][2] | [ESP32-DevKitC-V4][3] | [ESP32-DevKitC-VE][4]
 |-------------------------|:-------:|:-------:|:--------:|:--------:
 | MCU                     | ESP32-WROOM | ESP32-WROVER | ESP32-WROOM | ESP32-WROVER
 | Flash                   | 4 MB    | 4 MB   | 4 MB | 8 MB
-| PSram                   | No      | 8 MB    | 8 MB      | 8 MB
+| PSram                   | No      | 8 MB    | No      | 8 MB
 | Pinheaders              | Two 1x8 ² | Two 1x8 ² | Two 1x19  | Two 1x19
 | Battery circuit         | no | :white_check_mark: yes | no | no
 | | [:material-cart-variant: Buy][1]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][2]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
