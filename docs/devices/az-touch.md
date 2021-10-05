@@ -22,7 +22,7 @@ There are 2 ESP32 footprint options for soldering headers onto the PCB:
 1. ESP32-DevKitC footprint with 2x19 pins
 2. Wemos D1 mini footprint with 2x8 pins
 
-The ESP32-DevKitC options is prefered because you can use more pins from the ESP32.
+The ESP32-DevKitC option is prefered because you can use more pins from the ESP32.
 
 | Pros                         | Cons
 |:-----                        |:----
@@ -71,6 +71,7 @@ AZ-Touch comes with a nice wall mounting enclosure for the 2.4&quot; or 2.8&quot
 It enables you to mount your project permanent in your living room, corridor or other exposed places. 
 
 The wall mounted enclosure measures 120mm x 80mm x 35mm (W x H x D).
+
 
 ## Flashing
 
