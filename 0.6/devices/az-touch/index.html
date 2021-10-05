@@ -1406,7 +1406,7 @@
                 
                 <h1 id="az-touch-mod">AZ-Touch MOD<a class="headerlink" href="#az-touch-mod" title="Permanent link">~</a></h1>
 <div class="row justify-content-center">
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
             <img src="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" class="img-fluid">
         </a>
         <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.main_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.8&quot; touchscreen" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
@@ -1421,8 +1421,8 @@
 </div>
 
 <p>The AZ-Touch wall enclosure includes a 2.4" or 2.8" ILI9341 display with a XPT2046 resistive touchscreen controller.
-The kit comes with a pre-soldered PCB, but with loose headers. Some soldering is required.
-There are 2 ESP32 footprint options for soldering headers onto the PCB:</p>
+The kit comes with a pre-soldered PCB except for the pinheaders, so <a href="https://www.az-delivery.de/en/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/az-touch-mod">some soldering</a> is required.</p>
+<p>There are 2 ESP32 footprint options for soldering headers onto the PCB:</p>
 <ol>
 <li>ESP32-DevKitC footprint with 2x19 pins</li>
 <li>Wemos D1 mini footprint with 2x8 pins</li>
@@ -1465,12 +1465,37 @@ There are 2 ESP32 footprint options for soldering headers onto the PCB:</p>
 <h2 id="esp32-dev-boards">ESP32 dev boards<a class="headerlink" href="#esp32-dev-boards" title="Permanent link">~</a></h2>
 <p>The AZ-Touch MOD PCB kit does <em>not</em> come with an MCU and needs to be purchased seperately.
 The PCB is designed to be compatible with these development boards:</p>
-<p>| Board                   | <a href="https://www.az-delivery.de/nl/products/esp-32-dev-kit-c-v4">ESP32-DevKitC-V4</a> | <a href="https://www.amazon.com/Espressif-ESP32-DevKitC-VE-Development-Board/dp/B087TNPQCV">ESP32-DevKitC-VE</a>
-|-------------------------||:----------:|:----------:
-| MCU                     | ESP32-WROOM | ESP32-WROVER
-| Flash                   | 4 MB | 8 MB
-| PSram                   | No      | 8 MB
-| | <a class="md-button md-button--primary" href="https://www.az-delivery.de/nl/products/esp-32-dev-kit-c-v4"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a> | <a class="md-button md-button--primary" href="https://www.amazon.com/Espressif-ESP32-DevKitC-VE-Development-Board/dp/B087TNPQCV"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a></p>
+<table>
+<thead>
+<tr>
+<th>Board</th>
+<th align="center"><a href="https://www.az-delivery.de/nl/products/esp-32-dev-kit-c-v4">ESP32-DevKitC-V4</a></th>
+<th align="center"><a href="https://www.amazon.com/Espressif-ESP32-DevKitC-VE-Development-Board/dp/B087TNPQCV">ESP32-DevKitC-VE</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MCU</td>
+<td align="center">ESP32-WROOM</td>
+<td align="center">ESP32-WROVER</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td align="center">4 MB</td>
+<td align="center">8 MB</td>
+</tr>
+<tr>
+<td>PSram</td>
+<td align="center">No</td>
+<td align="center">8 MB</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"><a class="md-button md-button--primary" href="https://www.az-delivery.de/nl/products/esp-32-dev-kit-c-v4"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a></td>
+<td align="center"><a class="md-button md-button--primary" href="https://www.amazon.com/Espressif-ESP32-DevKitC-VE-Development-Board/dp/B087TNPQCV"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 20c0 1.11-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2s-.89-2-2-2m.2-3.37-.03.12c0 .14.11.25.25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1V2h3.27l.94 2H20c.55 0 1 .45 1 1 0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63M8.5 11H10V9H7.56l.94 2M11 9v2h3V9h-3m3-1V6h-3v2h3m3.11 1H15v2h1l1.11-2m1.67-3H15v2h2.67l1.11-2M6.14 6l.94 2H10V6H6.14z"/></svg></span> Buy</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="product-video">Product Video<a class="headerlink" href="#product-video" title="Permanent link">~</a></h2>
 <p><img alt="YOUTUBE" src="JvdXCSyFyOA" /></p>
 <h2 id="backlight-control">Backlight Control<a class="headerlink" href="#backlight-control" title="Permanent link">~</a></h2>
