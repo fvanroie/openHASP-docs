@@ -9,28 +9,29 @@
         </a>
 </div>
 <div>
-        <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown-usbc.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[work]" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission">more images...</a>
-        <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown-speaker.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission"></a>
-        <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown-sdcard.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission"></a>
-        <a href="https://raw.githubusercontent.com/HASwitchPlate/openHASP-docs/master/docs/assets/images/devices/esp32-touchdown-features.png" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="ESP32 TouchDown" data-footer="Original image by Dustin Watts - Used with permission"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_154855590_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[work]" data-title="AZ-Touch Top PCB with headers" data-footer="Copyright az-delivery.de">more images...</a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155709352_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch Bottom PCB with MCU" data-footer="Copyright az-delivery.de"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155641315_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch PCB Side View" data-footer="Copyright az-delivery.de"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="Assembled AZ-Touch PCB" data-footer="Copyright az-delivery.de"></a>
 </div>
 
 The AZ-Touch wall enclosure set comes with a 2.4" or 2.8" ILI9341 display and uses a XPT2046 resistive touchscreen controller.
 The kit comes with a pre-soldered PCB, but with loose headers.
 There are 2 ESP32 footprint options for soldering headers onto the PCB:
 
-1. Plug a compatible ESP32 onto the female headers on the back
-2. Attach a [LOLIN D32 Pro V2.0][3] using the 10-pin TFT connector and cable
-3. Solder headers onto the bottom pinholes for pluging into a breadboard or jumper cables for any other ESP
+1. ESP32-DevKitC footprint with 2x19 pins
+2. Wemos D1 mini footprint with 2x8 pins
 
-| Pros                       | Cons
-|:-----                      |:----
-| Versatile PCB options      | Big enclosure
-| Limited soldering required | Resistive touchpanel
-| Choice of several ESP32 MCUs |
-| 9 to 35V DC power input    |
+The ESP32-DevKitC options is prefered because you can use more pins from the ESP32.
+
+| Pros                         | Cons
+|:-----                        |:----
+| Versatile PCB options        | Bulky enclosure
+| Limited soldering required   | Resistive touchpanel
+| Choice of several ESP32 MCUs
+| 9 to 35V DC-DC power input
 | Integrated piezo beeper
-| Breadboard area 
+| Breadboard area
 
 
 ## ESP32 dev boards
@@ -61,15 +62,7 @@ The PCB is designed to be compatible with these development boards:
 
 ## Backlight Control
 
-To use PWM dimming on the Lolin TFT 2.4" you must connect the TFT-LED pin to either D1 or D2.
-**D1 is recommended** for backlight control and configured by default in the firmware.
-
-![TFT-LED PWM dimming](../assets/images/tft-led-pwm.png)
-
-!!! warning
-    Do *not* use D3 for backlight control because it is already in use for touch!</br>
-    Do *not* use D4 for backlight control because it is already in use for PSram on the ESP32-WROVER,
-    also the D1-mini has D4 connected to the on-board LED and boot fails if pulled LOW
+GPIO15 of the NodeMCU is used for PWM dimming off the Arduitouchcdisplay.
 
 
 ## Enclosure
