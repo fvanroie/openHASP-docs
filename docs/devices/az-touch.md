@@ -1,7 +1,7 @@
 # AZ-Touch MOD
 
 <div class="row justify-content-center">
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
             <img src="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" class="img-fluid">
         </a>
         <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.main_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.8&quot; touchscreen" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
@@ -16,7 +16,8 @@
 </div>
 
 The AZ-Touch wall enclosure includes a 2.4" or 2.8" ILI9341 display with a XPT2046 resistive touchscreen controller.
-The kit comes with a pre-soldered PCB, but with loose headers. Some soldering is required.
+The kit comes with a pre-soldered PCB except for the pinheaders, so [some soldering][5] is required.
+
 There are 2 ESP32 footprint options for soldering headers onto the PCB:
 
 1. ESP32-DevKitC footprint with 2x19 pins
@@ -40,11 +41,11 @@ The AZ-Touch MOD PCB kit does *not* come with an MCU and needs to be purchased s
 The PCB is designed to be compatible with these development boards:
 
 | Board                   | [ESP32-DevKitC-V4][3] | [ESP32-DevKitC-VE][4]
-|-------------------------||:----------:|:----------:
+|-------------------------|:-----------:|:-----------:|
 | MCU                     | ESP32-WROOM | ESP32-WROVER
-| Flash                   | 4 MB | 8 MB
-| PSram                   | No      | 8 MB
-| | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
+| Flash                   | 4 MB        | 8 MB
+| PSram                   | No          | 8 MB
+|  | [:material-cart-variant: Buy][3]{ .md-button .md-button--primary } | [:material-cart-variant: Buy][4]{ .md-button .md-button--primary }
 
 
 ## Product Video
@@ -85,5 +86,6 @@ The ESP32 can be flashed over USB like any ESP32 development board.
 
 [3]: https://www.az-delivery.de/nl/products/esp-32-dev-kit-c-v4
 [4]: https://www.amazon.com/Espressif-ESP32-DevKitC-VE-Development-Board/dp/B087TNPQCV
+[5]: https://www.az-delivery.de/en/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/az-touch-mod
 [6]: https://www.hwhardsoft.de/app/download/11868165697/AZ-Touch+MOD+schematic+V01-03-01.pdf
 [7]: https://www.hwhardsoft.de/app/download/11868164297/Datasheet+AZ-Touch+MOD+Rev+B.pdf
