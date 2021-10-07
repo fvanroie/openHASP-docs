@@ -1,18 +1,18 @@
 # AZ-Touch MOD
 
 <div class="row justify-content-center">
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="Assembled AZ-Touch PCB" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved">
             <img src="https://cdn.shopify.com/s/files/1/1509/1638/products/Web04_600x.jpg" class="img-fluid">
         </a>
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.main_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.8&quot; touchscreen" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.main_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.8&quot; touchscreen" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved">
             <img src="https://cdn.shopify.com/s/files/1/1509/1638/products/1.main_600x.jpg" class="img-fluid">
         </a>
 </div>
 <div>
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.Main_ArduiTouch_1x_5a91fd6e-d707-48a1-bbae-31d001aaf76a_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.4&quot; touchscreen" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved"></a>
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_154855590_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[work]" data-title="AZ-Touch Top PCB with headers" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">more images...</a>
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155709352_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch Bottom PCB with MCU" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved"></a>
-        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155641315_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch PCB Side View" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/products/1.Main_ArduiTouch_1x_5a91fd6e-d707-48a1-bbae-31d001aaf76a_600x.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch wall enclosure set with 2.4&quot; touchscreen" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_154855590_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[work]" data-title="AZ-Touch Top PCB with headers" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved">more images...</a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155709352_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch Bottom PCB with MCU" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved"></a>
+        <a href="https://cdn.shopify.com/s/files/1/1509/1638/files/PXL_20201030_155641315_600x600.jpg" data-toggle="lightbox" data-gallery="example-gallery" rel="lightbox[vacation]" data-title="AZ-Touch PCB Side View" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved"></a>
 </div>
 
 The AZ-Touch wall enclosure includes a 2.4" or 2.8" ILI9341 display with a XPT2046 resistive touchscreen controller.
@@ -64,7 +64,7 @@ The AZ-Touch MOD kit comes with a nice wall mounting enclosure for the 2.4&quot;
 It enables you to mount your project permanently in your living room, corridor or other exposed places. 
 
 <div class="row justify-content-center">
-        <a href="../../assets/images/devices/arduitouch-contents.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch MOD Contents" data-footer="Copyright <a href="https://www.az-delivery.de/">az-delivery.de</a>, All Rights Reserved">
+        <a href="../../assets/images/devices/arduitouch-contents.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6" data-title="AZ-Touch MOD Contents" data-footer="Copyright <a href='https://www.az-delivery.de/'>az-delivery.de</a>, All Rights Reserved">
             <img src="../../assets/images/devices/arduitouch-contents.jpg" class="img-fluid">
         </a>
 </div>
